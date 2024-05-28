@@ -14,10 +14,9 @@ class Vehicle:
             return f"Я таких не знаю."
 
     def get_vehicle_advice(self, mileage):
-        self.mileage = mileage
-        if 50001 >= mileage <= 100000:
+        if 50001 <= mileage <= 100000:
             return f"Неплохо! {self.name} можно купить!"
-        elif 100001 >= mileage <= 150000:
+        elif 100001 <= mileage <= 150000:
             return f"{self.name} надо внимательно проверить!"
         elif mileage >= 150001:
             return f"{self.name} лучше не брать!"

@@ -19,3 +19,8 @@ class Hotel:
         return f"Выберем {room} с {number_of_beds} спальными местами"
     def pack_a_suitcase(self):
         return f"Складываем чемодан"
+    def attach_a_cat(self, name_cat=None):
+        if name_cat is None:
+            return f"Кота у нас нет"
+        else:
+            return f"За котом {name_cat} присмотрит сосед"

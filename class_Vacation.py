@@ -17,3 +17,5 @@ class Hotel:
     def get_room_hotel(self, room):
         number_of_beds = int(input("Сколько нужно кроватей?  "))
         return f"Выберем {room} с {number_of_beds} спальными местами"
+    def pack_a_suitcase(self):
+        return f"Складываем чемодан"

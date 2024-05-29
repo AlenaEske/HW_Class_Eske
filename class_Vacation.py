@@ -14,3 +14,6 @@ class Hotel:
             return f"{self.name} - отличный отель, включено {included}."
         else:
             return f"{self.name} - супер отель, но очень дорогой."
+    def get_room_hotel(self, room):
+        number_of_beds = int(input("Сколько нужно кроватей?  "))
+        return f"Выберем {room} с {number_of_beds} спальными местами"

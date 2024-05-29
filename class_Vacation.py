@@ -24,3 +24,17 @@ class Hotel:
             return f"Кота у нас нет"
         else:
             return f"За котом {name_cat} присмотрит сосед"
+hotel_1 = Hotel("Звезда")
+print(hotel_1.get_hotel_of_stars(3))
+print(hotel_1.get_room_hotel("Люкс"))
+print(hotel_1.attach_a_cat("Барсик"))
+print()
+hotel_2 = Hotel("Парадиз")
+print(hotel_2.get_hotel_of_stars(4))
+print(hotel_2.get_room_hotel("Полу-люкс"))
+print(hotel_2.attach_a_cat())
+print()
+hotel_3 = Hotel("Allians Анапа")
+print(hotel_3.get_hotel_of_stars(5))
+print(hotel_3.get_room_hotel("Эконом"))
+print(hotel_3.attach_a_cat("Пушок"))
